@@ -1,0 +1,15 @@
+.diary-list .diary-item {
+    margin-bottom: 20px;
+}
+.diary-list a:nth-last-of-type(1) .diary-item {
+    margin-bottom: 0;
+}
+.add .am-button{
+    width: 90vw;
+    height: 5vh;
+    margin: 3vh auto 0 auto;
+    line-height: 5vh;
+    background-color: rgb(80, 170, 70);
+    color: #fff;
+    font-size: 15px;
+}

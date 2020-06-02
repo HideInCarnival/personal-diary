@@ -1,0 +1,9 @@
+{
+  "extends": "eslint-config-egg",
+  "rules": {
+    "indent": "off",
+    "no-mixed-spaces-and-tabs": "off",
+    "comma-dangle": "off",
+    "eol-last": "off"
+  }
+}

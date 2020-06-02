@@ -1,0 +1,10 @@
+.App {
+    background: rgb(50, 50, 50);
+    color: #fff;
+    height: 100vh;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+}

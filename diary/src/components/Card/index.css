@@ -1,0 +1,69 @@
+.card {
+    width: 100vw;
+    height: 23vh;
+    background-color: #444;
+    font-size: 30px;
+    border-radius: 2%;
+    color: #ccc;
+}
+
+.card-header {
+    display: flex;
+    height: 6vh;
+    line-height: 6vh;
+    position: relative;
+    padding-left: 2vw;
+}
+.card-header img{
+    vertical-align: middle;
+    width: 15vw;
+    margin-right: 2vw;
+    margin-top: 2vw;
+}
+.card-header-content {
+    width: 65vw;
+    font-size: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-header-extra {
+    position: absolute;
+    right: 2vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 20px;
+}
+.card-footer {
+    display: flex;
+    height: 4vh;
+    line-height: 4vh;
+    position: relative;
+    font-size: 20px;
+}
+.card-footer-content {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+    left: 2vw;
+}
+.card-footer-extra {
+    position: absolute;
+    right: 2vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-body {
+    height: 11vh;
+}
+.card-body-content {
+    padding: 2vw;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: normal;
+    word-break: break-all;
+}

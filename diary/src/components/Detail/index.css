@@ -1,0 +1,20 @@
+.diary-detail {
+    background-color: inherit;
+    height: 100vh;
+}
+.diary-detail .am-navbar {
+    background-color: inherit;
+}
+
+/* .diary-detail .am-navbar .am-navbar-right .am-icon {
+    color: #fff;
+} */
+
+.diary-detail .am-list .am-list-body .am-list-item{
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+}
+
+.diary-detail .am-list .am-list-body .am-list-item .am-list-content {
+    color: #ccc;
+}
